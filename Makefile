@@ -4,10 +4,10 @@ test:
 	go test ./...
 
 lint:
-	golangci-lint run -c golangci-lint.yml
+	golangci-lint run -c .golangci.yml
 
 lint118:
-	golangci-lint run -c golangci-lint.yml --disable gocritic
+	golangci-lint run -c .golangci.yml --disable gocritic
 
 prepare-image-lambda:
 	mkdir -p bin
