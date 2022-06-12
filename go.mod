@@ -9,7 +9,7 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/joho/godotenv v1.4.0
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/mikarios/golib v0.0.0-20220611204331-3d50a54163a1
+	github.com/mikarios/golib v1.1.0
 	github.com/streadway/amqp v1.0.0
 	golang.org/x/image v0.0.0-20220601225756-64ec528b34cd
 )
