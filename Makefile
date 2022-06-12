@@ -1,7 +1,7 @@
 .PHONY: test lint lint118 prepare-image-lambda build build-imagemaker-linux check-up-to-date
 
 test:
-	go test ./...
+	go test -coverprofile="coverage.txt" -covermode=atomic -p 1 ./...
 
 lint:
 	golangci-lint run -c .golangci.yml

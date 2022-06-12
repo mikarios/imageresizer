@@ -8,8 +8,9 @@
 .idea
 .DS_Store
 /vendor
+bin/
 
 *.env
 !internal/services/config/daemonConfigTemplates/*.env
 
-bin/
+coverage.txt
