@@ -1,5 +1,6 @@
 # image resizer
 Microservice used to resize images. Supports connection to rabbitMQ to get jobs to execute and images within each job are processed concurrently with a set number of workers. Also provides an API to add jobs instead of using rabbitMQ.
+Images are uploaded to aws-like cdn. (created for digital ocean which has the same implementation as aws)
 
 ----
 
