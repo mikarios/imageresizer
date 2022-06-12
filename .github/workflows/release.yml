@@ -24,5 +24,5 @@ jobs:
           project_path: "./cmd/server"
           binary_name: "imageResizer"
           ldflags: "-s -w"
-          extra_files: README.md
+          extra_files: README.md internal/services/config/daemonConfigTemplates/imageresizer.env
           goversion: latest
