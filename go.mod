@@ -11,13 +11,13 @@ require (
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mikarios/golib v1.1.0
 	github.com/streadway/amqp v1.0.0
-	golang.org/x/image v0.0.0-20220601225756-64ec528b34cd
+	golang.org/x/image v0.5.0
 )
 
 require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/mxschmitt/golang-combinations v1.1.0 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
-	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd // indirect
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
 	golang.org/x/sys v0.1.0 // indirect
 )
